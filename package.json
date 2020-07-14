@@ -1,11 +1,21 @@
 {
-  "name": "slider",
-  "version": "0.1.0",
-  "private": true,
+  "name": "slider.mood",
+  "version": "1.0.0",
+  "private": false,
+  "author": {
+    "name": "domutala",
+    "email": "ibntalla@gmail.com"
+  },
+  "repository": "domutala/slider.mood",
+  "homepage": "https://github.com/domutala/slider.mood#readme/",
+  "license": "MIT",
+  "main": "dist/slider.common.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name slider ./component/index.ts"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -19,5 +29,13 @@
     "@vue/cli-service": "^4.4.0",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "keywords": [
+    "slider",
+    "mood",
+    "vue",
+    "components",
+    "framework",
+    "ui"
+  ]
 }
